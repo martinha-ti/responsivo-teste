@@ -1,0 +1,44 @@
+/*Responsivo
+    https://ui.dev/amiresponsive
+*/
+
+    /*desktop  um mínimo de largura = 780px */
+    @media screen and (min-width: 780px){ 
+        /* body{ background-color: black;} */
+      }
+      /*tablet* máx de largura = 779px e um mínimo 481px */
+      @media screen and (min-width: 581px) and (max-width: 779px){        
+        main{ width: 100%;} 
+        header{ width: 100%;} 
+        #topo{ width: 100%;} 
+        #esq{ width: 40%;} 
+        #dir{ width: 60%;} 
+        #a{ width: 100%;}
+        #b{ width: 100%;}
+        #c{ width: 100%;} 
+        #d{ width: 100%;}
+        #e{ width: 100%;}
+        #f{ width: 100%;} 
+        #depoimentos{ width: 100%; height: auto;} 
+        .dep{ width: 100%;} 
+        #imagens{ width: 100%; height: auto;} 
+        .imgs img{width: 50%;}
+        #menu-footer { width: 100%; height: auto; margin-left: 0%; text-align: center;} 
+        #menu-footer ul li{width: 100%; line-height: 2.5rem;}
+                 
+        }
+      /*celular máx de largura = 580px*/
+      @media screen and (max-width: 580px){
+        main{ width: 100%;} 
+        header{ width: 100%;} 
+        #topo{ width: 100%;} 
+        #esq{ width: 100%; } 
+        #dir{ width: 100%;}  
+        #a{ width: 100%;}
+        #b{ width: 100%;}
+        #c{ width: 100%;} 
+        #d{ width: 100%;}
+        #e{ width: 100%;}
+        #f{ width: 100%;} 
+      
+   }
